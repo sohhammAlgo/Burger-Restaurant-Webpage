@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patty & Bun Co.-Juicy,Delicious Burgers</title>
+    <meta name="description" content="Best gourmet burgers in town. Fresh ingredients, bold flavors">
+</head>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        color: #333;
+    }
+
+    h1,
+    h2,
+    h3 {
+        color: #8B0000;
+        /* Dark red for headings */
+    }
+
+    nav ul {
+        padding: 0;
+        list-style: none;
+        display: flex;
+        gap: 20px;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: #8B0000;
+        font-weight: bold;
+    }
+
+    nav a:hover {
+        text-decoration: underline;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 20px 0;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+    }
+
+    th,
+    td {
+        padding: 10px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+
+    th {
+        background-color: #f8f8f8;
+    }
+
+    button {
+        background-color: #8B0000;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-radius: 4px;
+    }
+
+    button:hover {
+        background-color: #A52A2A;
+    }
+
+    address {
+        font-style: normal;
+        margin: 20px 0;
+    }
+
+    input,
+    textarea {
+        width: 100%;
+        padding: 8px;
+        margin: 5px 0;
+        box-sizing: border-box;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+    }
+</style>
+
+<body>
+    <h1>Welcome to Patty & Bun Co.</h1>
+    <h3>Flame-Grilled Happiness Since 2018</h3>
+    <nav>
+        <ul>
+            <li><a href="#about">About us</a></li>
+            <li><a href="#menu">Our Menu</a></li>
+            <li><a href="#contact">Contact us</a></li>
+        </ul>
+    </nav>
+    <img src="img3.jpeg" alt="Logo">
+    <section id="about">
+        <h2><br>About Us</h2>
+        <div>
+            <p>Born from a backyard BBQ obsession in 2018, <strong><em>Patty & Bun Co.</em></strong> brings rebellious
+                flavor to <strong>Foodville</strong>. We reject frozen patties and mass-produced buns every element is
+                crafted in-house daily</p>
+            <p>Meet the Team:</p>
+            <p>- <strong>Chef Jamie Rivera</strong>: "Burgers are my love language" (15 yrs experience)</p>
+            <p>- <strong>Manager Taylor Chen</strong>: "Customer joy is our secret sauce."</p>
+        </div>
+    </section>
+    <section id="menu">
+        <h2><br>Our menu</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Menu Item</th>
+                    <th>Contains</th>
+                    <th class="price">Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>The OG Patty Melt</strong></td>
+                    <td>&nbsp;2x beef patties,Swiss cheese,<br>&nbsp;caramelized onions,rye bread</td>
+                    <td class="price">&nbsp;$12.99</td>
+                </tr>
+                <tr>
+                    <td><strong>Nashville Hot Chicken</strong></td>
+                    <td>&nbsp;Spicy fried chicken,slaw,<br>&nbsp;pickles,comeback sauce</td>
+                    <td class="price">&nbsp;$11.99</td>
+                </tr>
+                <tr>
+                    <td><strong>Impossible™ Classic</strong></td>
+                    <td>&nbsp;Plant-based patty,vegan cheese,<br>&nbsp;all standard fixings</td>
+                    <td class="price">&nbsp;$13.99</td>
+                </tr>
+                <tr>
+                    <td><strong>Portobello Stack</strong></td>
+                    <td>&nbsp;Grilled mushrooms, avocado,<br>&nbsp;balsamic glaze</td>
+                    <td class="price">&nbsp;$13.99</td>
+                </tr>
+            </tbody>
+        </table><br>
+        <button type="order">Order now</button>
+    </section>
+    <section id="contact">
+        <h2><br>Visit us</h2>
+        <address>
+            <p>🏠 <strong>Address:</strong> 456 Sizzle Street, Foodville, FL 33901.</p>
+            <p>📞 <strong>Contact:</strong> (555) 123-4567.</p>
+            <p>✉ <strong>Email:</strong> pattynbunco@burgerhaven.com</p>
+        </address>
+        <h3>Also Follow us on:</h3>
+        <p>@PattyAndBunCo for daily specials.</p>
+        <h3><br>Send us a message</h3>
+        <form action="message">
+            <p><strong>Help us contact you:</strong></p>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name here" required><br><br>
+            <label for="email">Email:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your email here" required><br><br>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" placeholder="Type here" required></textarea><br>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+</body>
+
+</html>
